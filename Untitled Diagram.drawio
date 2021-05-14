@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-05-14T01:53:14.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="lqYFIKlpTtemvlG-ZvWS" version="14.6.12" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-14T01:58:39.462Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="ZIYlMCvPZbPd89y0xK-e" version="14.6.12" type="github">
   <diagram id="DSWwQNzFhFzNqQi3Cpnu" name="Page-1">
     <mxGraphModel dx="942" dy="583" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -18,26 +18,38 @@
         <mxCell id="GCmGm0fDvdDrNts039nj-2" value="自有应用前台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GCmGm0fDvdDrNts039nj-3" value="自有应用后台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="495" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="GCmGm0fDvdDrNts039nj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GCmGm0fDvdDrNts039nj-4" target="GCmGm0fDvdDrNts039nj-8">
+        <mxCell id="GCmGm0fDvdDrNts039nj-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GCmGm0fDvdDrNts039nj-3" target="GCmGm0fDvdDrNts039nj-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="GCmGm0fDvdDrNts039nj-3" value="自有应用后台" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="GCmGm0fDvdDrNts039nj-4" value="1.首页配置钉钉代码获取授权码" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="300" width="100" height="40" as="geometry" />
+          <mxGeometry x="290" y="305" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="GCmGm0fDvdDrNts039nj-6" value="4.通过免登授权码和accessToken去钉钉后台服务器换取用户身份" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="482.5" y="410" width="120" height="50" as="geometry" />
+          <mxGeometry x="482.5" y="420" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="GCmGm0fDvdDrNts039nj-8" value="2.拿到code鉴权" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="305" width="90" height="30" as="geometry" />
+          <mxGeometry x="502.5" y="305" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GCmGm0fDvdDrNts039nj-11" value="3.通过配置的APP_KEY,&amp;nbsp;APP_SECRET&lt;span style=&quot;font-family: &amp;#34;jetbrains mono&amp;#34; , monospace ; font-size: 10.5pt ; color: rgb(152 , 118 , 170)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span&gt;获取accessToken&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="335" width="205" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="GCmGm0fDvdDrNts039nj-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="GCmGm0fDvdDrNts039nj-15" target="GCmGm0fDvdDrNts039nj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GCmGm0fDvdDrNts039nj-15" value="钉钉后台服务器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="670" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GCmGm0fDvdDrNts039nj-19" value="5.生成自有系统的access_token给自有系统前台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="492.5" y="497.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GCmGm0fDvdDrNts039nj-21" value="6.前台携带自有系统access_token访问自有系统接口" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="482.5" width="130" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="GCmGm0fDvdDrNts039nj-24" value="" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="290" width="40" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
